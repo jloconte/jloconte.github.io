@@ -1,0 +1,107 @@
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.nav {
+  background: #333333;
+  width: 100%;
+  position: fixed;
+  z-index: 50;
+}
+
+.nav li a {
+  color: #fff;
+  font-size: 1.25em;
+}
+
+.nav li a:hover {
+  background: #13294c;
+}
+
+.nav li a:active {
+    background-color: #fff;
+    color: #13294c;
+}
+
+.jumbotron {
+  margin-top: 40px;
+  font-family: "Gloria Hallelujah", cursive;
+  color: #fff;
+  text-align: center;
+  min-height: 350px;
+  background: url("http://trickvilla.com/wp-content/uploads/Wood-Background-Photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#skillset {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.skills {
+  text-align: center;
+}
+
+#about {
+  background-color: #13294c;
+  padding: .5em;
+  color: #fff;
+  line-height: 2.5em;
+}
+
+#about h1 {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#about img {
+  max-height: 500px;
+}
+
+#about p {
+  letter-spacing: .1em;
+  font-size: 18px;
+}
+
+#portfolio h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#portfolioslides {
+  max-width: 600px;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  color: #13294c;
+}
+
+#contact {
+  margin-top: 3%;
+  text-align: center;
+  background-color: #13294c;
+  color: #fff;
+  padding: .5em;
+}
+
+#contact h1 {
+  font-size: 3em;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#contact i {
+  font-size: 2em;
+  padding: .5em;
+}
+
+footer {
+  text-align: center;
+  background: #333333;
+  color: #fff;
+  padding: .5em;
+}
